@@ -21,6 +21,13 @@ describe("public resident guide", () => {
     expect(rules.map((rule) => rule.title)).toEqual(
       expect.arrayContaining(["Mudanças", "Silêncio", "Garagem", "Animais"]),
     );
+    expect(rules.find((rule) => rule.title === "Reservas")?.text).toContain("48 horas");
+    expect(rules.find((rule) => rule.title === "Obras e reformas")?.text).toContain(
+      "autorização do síndico",
+    );
+    expect(rules.find((rule) => rule.title === "Lixo e descarte")?.text).toContain(
+      "Baterias e resíduos especiais",
+    );
   });
 
   it("makes BRCondos support callable from a phone", async () => {

@@ -38,7 +38,7 @@ export const rules = [
   },
   {
     title: "Reservas",
-    text: "Faça a reserva das áreas comuns no BRCondos e confira as orientações do espaço. O responsável pela unidade deve acompanhar o uso e a entrega do local.",
+    text: "Faça a reserva das áreas comuns no BRCondos com pelo menos 48 horas de antecedência e confira as orientações do espaço. O responsável pela unidade deve acompanhar o uso e a entrega do local.",
   },
   {
     title: "Visitantes e entregas",
@@ -46,7 +46,7 @@ export const rules = [
   },
   {
     title: "Obras e reformas",
-    text: "Comunique a administração pelo BRCondos antes do início. Dependendo do serviço, podem ser exigidos documentos e responsabilidade técnica. Preserve elevadores, corredores e horários permitidos.",
+    text: "Comunique a administração pelo BRCondos e aguarde a autorização do síndico antes de iniciar qualquer obra ou reforma. Dependendo do serviço, podem ser exigidos documentos e responsabilidade técnica. Preserve elevadores, corredores e horários permitidos.",
   },
   {
     title: "Silêncio",
@@ -54,7 +54,7 @@ export const rules = [
   },
   {
     title: "Lixo e descarte",
-    text: "Embale e feche bem os resíduos. Não coloque objetos volumosos ou materiais sólidos nos coletores. Combine o descarte especial pelo BRCondos e mantenha corredores livres.",
+    text: "Separe os resíduos orgânicos, recicláveis e vidros. Deposite os vidros no térreo e, se estiverem quebrados, embale-os com segurança. Baterias e resíduos especiais não podem ser colocados nas lixeiras; consulte a administração sobre a destinação correta.",
   },
   {
     title: "Garagem",
