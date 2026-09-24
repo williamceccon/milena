@@ -59,7 +59,9 @@ export default function Home() {
             <a className="button primary" href={channels.ios}>Baixar para iPhone <Arrow /></a>
             <a className="button primary" href={channels.android}>Baixar para Android <Arrow /></a>
           </div>
-          <p className="support">Suporte BRCondos: 0800 603 0023 • segunda a sexta, das 8h30 às 18h</p>
+          <p className="support">
+            Suporte BRCondos: <a href="tel:08006030023">0800 603 0023</a> • segunda a sexta, das 8h30 às 18h
+          </p>
         </div>
         <ul className="topicList">
           {routineTopics.map((topic, index) => (

@@ -23,6 +23,12 @@ describe("public resident guide", () => {
     );
   });
 
+  it("makes BRCondos support callable from a phone", async () => {
+    const testDirectory = dirname(fileURLToPath(import.meta.url));
+    const page = await readFile(join(testDirectory, "../app/page.tsx"), "utf8");
+    expect(page).toContain('href="tel:08006030023"');
+  });
+
   it("contains public emergency numbers", () => {
     expect(emergencies.map((entry) => entry[1])).toEqual(
       expect.arrayContaining(["193", "192", "190", "0800 770 4922"]),
