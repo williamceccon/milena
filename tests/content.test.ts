@@ -17,9 +17,18 @@ describe("public resident guide", () => {
 
   it("contains the expected routine and coexistence guidance", () => {
     expect(routineTopics).toHaveLength(11);
-    expect(rules).toHaveLength(9);
+    expect(rules).toHaveLength(16);
     expect(rules.map((rule) => rule.title)).toEqual(
-      expect.arrayContaining(["Mudanças", "Silêncio", "Garagem", "Animais"]),
+      expect.arrayContaining([
+        "Mudanças",
+        "Prestadores de serviço",
+        "Encomendas",
+        "Elevadores",
+        "Tags e acesso facial",
+        "Áreas comuns",
+        "Segurança",
+        "Emergências internas",
+      ]),
     );
     expect(rules.find((rule) => rule.title === "Reservas")?.text).toContain("48 horas");
     expect(rules.find((rule) => rule.title === "Reservas")?.text).toContain(
