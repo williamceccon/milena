@@ -38,7 +38,7 @@ export const rules = [
   },
   {
     title: "Reservas",
-    text: "Faça a reserva das áreas comuns no BRCondos com pelo menos 48 horas de antecedência e confira as orientações do espaço. O responsável pela unidade deve acompanhar o uso e a entrega do local.",
+    text: "Faça a reserva das áreas comuns no BRCondos com pelo menos 48 horas de antecedência e confira as orientações do espaço. Cancelamentos feitos com menos de 72 horas de antecedência estão sujeitos à cobrança da taxa de indisponibilidade. O responsável pela unidade deve acompanhar o uso e a entrega do local.",
   },
   {
     title: "Visitantes e entregas",
@@ -58,11 +58,11 @@ export const rules = [
   },
   {
     title: "Garagem",
-    text: "Respeite o limite de 10 km/h. Evite buzina e não use a garagem para lavagem, manutenção, brincadeiras ou armazenamento de objetos.",
+    text: "O acesso à garagem é permitido somente a moradores com tag e veículos identificados. Respeite o limite de 10 km/h. Evite buzina e não use a garagem para lavagem, manutenção, brincadeiras ou armazenamento de objetos.",
   },
   {
     title: "Animais",
-    text: "Conduza o animal com segurança nas áreas comuns, recolha os dejetos e evite ruído ou situações que incomodem ou coloquem outras pessoas em risco.",
+    text: "Use o elevador de serviço para transportar animais. Conduza-os com segurança nas áreas comuns, limpe e recolha imediatamente os dejetos e evite ruído ou situações que incomodem ou coloquem outras pessoas em risco.",
   },
   {
     title: "Fumo e janelas",

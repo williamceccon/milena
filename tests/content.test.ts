@@ -22,11 +22,20 @@ describe("public resident guide", () => {
       expect.arrayContaining(["Mudanças", "Silêncio", "Garagem", "Animais"]),
     );
     expect(rules.find((rule) => rule.title === "Reservas")?.text).toContain("48 horas");
+    expect(rules.find((rule) => rule.title === "Reservas")?.text).toContain(
+      "taxa de indisponibilidade",
+    );
     expect(rules.find((rule) => rule.title === "Obras e reformas")?.text).toContain(
       "autorização do síndico",
     );
     expect(rules.find((rule) => rule.title === "Lixo e descarte")?.text).toContain(
       "Baterias e resíduos especiais",
+    );
+    expect(rules.find((rule) => rule.title === "Garagem")?.text).toContain(
+      "moradores com tag e veículos identificados",
+    );
+    expect(rules.find((rule) => rule.title === "Animais")?.text).toContain(
+      "elevador de serviço",
     );
   });
 
