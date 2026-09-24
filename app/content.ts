@@ -42,15 +42,11 @@ export const rules = [
   },
   {
     title: "Visitantes e entregas",
-    text: "Avise a portaria e autorize o acesso. Visitantes e prestadores devem se identificar. Combine a retirada de entregas sem bloquear a entrada ou as áreas comuns.",
+    text: "Avise a portaria e autorize o acesso. Visitantes e prestadores devem se identificar. Acompanhe os avisos de encomendas no BRCondos, retire-as assim que possível e combine diretamente o recebimento de itens volumosos ou perecíveis, sem bloquear a entrada ou as áreas comuns.",
   },
   {
     title: "Prestadores de serviço",
     text: "Autorize previamente o acesso e informe à portaria a unidade, o nome do prestador, a empresa e o serviço. O profissional deve se identificar e respeitar os horários e as regras do condomínio.",
-  },
-  {
-    title: "Encomendas",
-    text: "Acompanhe os avisos no BRCondos e retire as encomendas assim que possível. Combine diretamente o recebimento de itens volumosos ou perecíveis e não deixe volumes bloqueando as áreas comuns.",
   },
   {
     title: "Obras e reformas",
